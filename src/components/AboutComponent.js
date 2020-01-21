@@ -27,8 +27,10 @@ function About(props) {
             </div>
             <div className="row row-content">
                 <div className="col-sm-6">
-                    <h3>Our Mission</h3>
-                    <p>We present a curated database of the best campsites in the vast woods and backcountry of the World Wide Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use of resources. The expert wilderness trekkers on our staff personally verify each campsite to make sure that they are up to our standards. We also present a platform for campers to share reviews on campsites they have visited with each other.</p>
+                    <h3>More about Ignition Fire Troupe</h3>
+                    <p>IGNITION, the original Medieval Fusion Fire Troupe is a collection of talented martial artists, dancers, and witty entertainers molded into a fire performance troupe based in Seattle, Wa. Our troupe combines the daring fire arts with our eclectic and passionate spirits to bring you a diverse and dedicated family of performers. We are constantly committed to evolving and growing in order to deliver visually brilliant, high-quality performances for all ages fused with spectacular fire breathing, poi, staff, whips, batons, hoops, martial arts choreography, interpretive dance and acrobatics.</p>
+                    <p>
+                    'An eclectic menagerie of heavy metal, tribal, medieval, jungle, fusion, with leather and steel.'</p>
                 </div>
                 <div className="col-sm-6">
                     <Card>
@@ -36,13 +38,13 @@ function About(props) {
                         <CardBody>
                             <dl className="row">
                                 <dt className="col-6">Founded</dt>
-                                <dd className="col-6">February 3, 2016</dd>
-                                <dt className="col-6">No. of Campsites in 2019</dt>
-                                <dd className="col-6">563</dd>
+                                <dd className="col-6">2010</dd>
+                                <dt className="col-6">Fire governance</dt>
+                                <dd className="col-6">We work closely with local fire marshals and carry an annual fire permit with the City of Seattle. IGNITION maintains strict standards of fire safety, and are trained professionals. </dd>
                                 <dt className="col-6">No. of Reviews in 2019</dt>
                                 <dd className="col-6">4388</dd>
-                                <dt className="col-6">Employees</dt>
-                                <dd className="col-6">42</dd>
+                                <dt className="col-6">PLEASE DO NOT TRY THIS ON YOUR OWN.</dt>
+
                             </dl>
                         </CardBody>
                     </Card>

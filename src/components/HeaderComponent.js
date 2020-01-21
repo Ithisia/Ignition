@@ -42,26 +42,26 @@ class Header extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <h1>NuCamp</h1>
-                                <h2>a better way to camp</h2>
+                                <center><img src="/assets/images/IgnitionLogo1.png" /></center>
+                                <h3>An eclectic menagerie of heavy metal, tribal, medieval, jungle, fusion, with leather and steel.</h3>
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="Ignition" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/home">
-                                        <i className="fa fa-home fa-lg" /> Home
+                                        <i className="fa fa-home fa-lg" btn-margin-left /> Home
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/directory">
-                                        <i className="fa fa-list fa-lg" /> Directory
+                                        <i className="fa fa-list fa-lg" btn-margin-left /> Performer Profiles
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -71,15 +71,10 @@ class Header extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/contactus">
-                                        <i className="fa fa-address-card fa-lg" /> Contact Us
+                                        <i className="fa fa-address-card fa-lg" />    Contact and Book Us
                                     </NavLink>
                                 </NavItem>
                             </Nav>
-                            <span className="navbar-text ml-auto">
-                                <Button outline onClick={this.toggleModal}>
-                                    <i className="fa fa-sign-in fa-lg" /> Login
-                                </Button>
-                            </span>
                         </Collapse>
                     </div>
                 </Navbar>
