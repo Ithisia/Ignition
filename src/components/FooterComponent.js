@@ -10,7 +10,7 @@ function Footer(props) {
                         <h5>Links</h5>
                         <ul className="list-unstyled">
                             <li><Link to='/home'>Home</Link></li>
-                            <li><Link to='/directory'>Directory</Link></li>
+                            <li><Link to='/directory'>Performer Profiles</Link></li>
                             <li><Link to='/aboutus'>About</Link></li>
                             <li><Link to='/contactus'>Contact</Link></li>
                         </ul>
@@ -23,7 +23,8 @@ function Footer(props) {
                     </div>
                     <div className="col-sm-4 text-center">
                         <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
+                        <a role="button" className="btn btn-link" href="mailto:khan@IGNITIONFire.net"><i className="fa fa-envelope-o" /> khan@IGNITIONFire.net</a>
+                        <img src="./assets/images/ropedart11.jpg" />
                     </div>
                 </div>
             </div>

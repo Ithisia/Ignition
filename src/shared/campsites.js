@@ -25,10 +25,10 @@ export const CAMPSITES = [
     },
     {
         id: 3,
-        name:"Redux Woods Campground",
-        image: "/assets/images/redux-woods.jpg",
+        name:"Professional Fire Breathers!",
+        image: "/assets/images/breathing4.jpg",
         elevation: 42,
         featured: true,
-        description: "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+        description: "Allow yourself to be wowed by our amazing and talented fire breathers!"
     }
 ];
