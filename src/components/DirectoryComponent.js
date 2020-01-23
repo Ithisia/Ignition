@@ -31,7 +31,7 @@ function Directory(props) {
                 <div className="col">
                     <Breadcrumb>
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                        <BreadcrumbItem active>Directory</BreadcrumbItem>
+                        <BreadcrumbItem active>Performer Profiles</BreadcrumbItem>
                     </Breadcrumb>
                     <h2>Performer Profiles</h2>
                     <hr />
@@ -42,6 +42,7 @@ function Directory(props) {
             </div>
         </div>
     );
-    
+
     }
+
     export default Directory;

@@ -44,6 +44,21 @@ h2 {
   background-color: #050100;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  width: 14;
+  padding: 8px 16px;
+  color: orange;
+}
+
+li a:hover {
+  background-color: #555;
+  color: red;
+  display: block;
+  padding: 8px;
+}
+
 img {
   max-width:78%;
   height:auto;
