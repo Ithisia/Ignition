@@ -22,9 +22,9 @@ export const PARTNERS = [
     },
     {
         id: 3,
-        name: "Various props and performers available, to customize your show to your event!",
-        image: "/assets/images/fans2.jpg",
+        name: "Node Outdoor Apparel",
+        image: "/assets/images/node-logo.png",
         featured: true,
-        description: " "
+        description: "From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered."
     }
 ]

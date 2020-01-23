@@ -45,7 +45,7 @@ function RenderComments({ comments }) {
     return <div />;
 }
 
-function CampsiteInfo(props) {
+function IgnitionInfo(props) {
     if (props.campsite) {
         return (
             <div className="container">
@@ -72,4 +72,4 @@ function CampsiteInfo(props) {
 }
 
 
-export default CampsiteInfo;
+export default IgnitionInfo;

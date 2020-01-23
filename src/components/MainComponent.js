@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Directory from './DirectoryComponent';
-import CampsiteInfo from './CampsiteInfoComponent';
+import IgnitionInfo from './IgnitionInfoComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
@@ -35,7 +35,7 @@ class Main extends Component {
         
         const CampsiteWithId = ({ match }) => {
             return (
-                <CampsiteInfo campsite={this.props.campsites.filter(campsite => campsite.id === +match.params.campsiteId)[0]}
+                <IgnitionInfo campsite={this.props.campsites.filter(campsite => campsite.id === +match.params.campsiteId)[0]}
                     comments={this.props.comments.filter(comment => comment.campsiteId === +match.params.campsiteId)} />
             );
         };

@@ -3,7 +3,6 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { FadeTransform } from 'react-animation-components';
 
 
-
 function RenderCard({item}) {
     return (
         <FadeTransform

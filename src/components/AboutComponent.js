@@ -38,7 +38,7 @@ function About(props) {
                         <CardBody>
                             <dl className="row">
                                 <dt className="col-6">Founded</dt>
-                                <dd className="col-6">2010</dd>
+                                <dd className="col-6">2008</dd>
                                 <dt className="col-6">Fire governance</dt>
                                 <dd className="col-6">We work closely with local fire marshals and carry an annual fire permit with the City of Seattle. IGNITION maintains strict standards of fire safety, and are trained professionals. </dd>
                                 <dt className="col-6">No. of Reviews in 2019</dt>
@@ -53,7 +53,7 @@ function About(props) {
                     <Card className="bg-light mt-3">
                         <CardBody>
                             <blockquote className="blockquote">
-                                <p className="mb-0">I will not follow where the path may lead, but I will go where there is no path, and I will leave a trail.</p>
+                                <p className="mb-0">Lighting up the local Seattle area since 2008.</p>
                                 <footer className="blockquote-footer">Muriel Strode,{' '}
                                     <cite title="Source Title">"Wind-Wafted Wild Flowers" -
                                     The Open Court, 1903</cite>
@@ -65,7 +65,7 @@ function About(props) {
             </div>
             <div className="row row-content">
                 <div className="col-12">
-                    <h3>Community Partners</h3>
+                    <h3>Read more about our Fire</h3>
                 </div>
                 <div className="col mt-4">
                     <Media list>

@@ -1,5 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: black;
 }
 
 h1, h2, h3, .card-body>h5 {
@@ -42,7 +45,7 @@ h2 {
 }
 
 img {
-  max-width:88%;
+  max-width:78%;
   height:auto;
 }
 
