@@ -25,6 +25,13 @@ export const PARTNERS = [
         name: "Fire fans that look classy and graceful!",
         image: "/assets/images/Fans2.jpg",
         featured: true,
-        description: "From small to large events, we have a show that can be taylored to help add to a magical event!"
-    }
+        description: "From small to large shows, we have a show that can be taylored to help add to a magical event!"
+    },
+    {
+        id: 4,
+        name:"The Great Ball is stunningly large!",
+        image: "/assets/images/sean1.jpg",
+        featured: true,
+        description: "The whoosh of the fire as the Great Ball swings around is breathtaking!"
+    },
 ]

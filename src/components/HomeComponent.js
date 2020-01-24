@@ -35,6 +35,9 @@ function Home(props) {
                 <div className="col-md m-1">
                     <RenderCard item={props.partner} />
                 </div>
+                <div className="col-md m-1">
+                    <RenderCard item={props.partner2} />
+                </div>
             </div>
         </div>
     );

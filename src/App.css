@@ -43,6 +43,10 @@ h2 {
   background-color: #050100;
 }
 
+.navbar-nav {
+  padding-top: 25px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -82,7 +86,11 @@ img {
   transition: 300ms ease-out;
 }
 
-.menuitem {
+.menuicon {
+  padding-top: 23px;
+ }
+ 
+ .menuitem {
   color: orangered;
   font-family: "Open Sans", sans-serif;
   font-size: 200;
@@ -90,8 +98,9 @@ img {
   padding-right: 20px;
 }
 
-.menuicon {
- padding-top: 23px;
+.menuitem:visited {
+  color: orangered;
+  text-decoration: none;
 }
 
 .menuitem:hover {
@@ -99,6 +108,9 @@ img {
   text-decoration: none;
 }
 
+.menuitem:link {
+  text-decoration: none;
+}
 
 .breadcrumb {
   background-color: black;
@@ -118,3 +130,4 @@ img {
 .center-align {
   text-align: center;
 }
+

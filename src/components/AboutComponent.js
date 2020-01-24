@@ -34,9 +34,9 @@ function About(props) {
                 </div>
                 <div className="col-sm-6">
                     <Card>
-                        <CardHeader className="bg-primary text-white"><h3>Facts At a Glance</h3></CardHeader>
                         <CardBody>
                             <dl className="row">
+                                <dt className="col-6"><h3>Facts At a Glance</h3></dt>
                                 <dt className="col-6">Founded</dt>
                                 <dd className="col-6">2008</dd>
                                 <dt className="col-6">Fire governance</dt>
@@ -44,7 +44,6 @@ function About(props) {
                                 <dt className="col-6">No. of Reviews in 2019</dt>
                                 <dd className="col-6">4388</dd>
                                 <dt className="col-6">PLEASE DO NOT TRY THIS ON YOUR OWN.</dt>
-
                             </dl>
                         </CardBody>
                     </Card>
