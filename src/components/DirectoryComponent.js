@@ -6,7 +6,7 @@ function RenderDirectoryItem({ campsite }) {
     return (
         <Card>
             <Link to={`/directory/${campsite.id}`}>
-                <CardImg width="100%" src={campsite.image} alt={campsite.name} />
+                <CardImg width="100%" className="performerimg" src={campsite.image} alt={campsite.name} />
                 <CardImgOverlay>
                     <CardTitle>{campsite.name}</CardTitle>
                 </CardImgOverlay>
@@ -19,7 +19,7 @@ function Directory(props) {
 
     const directory = props.campsites.map(campsite => {
         return (
-            <div key={campsite.id} className="col-md-5 m-1">
+            <div key={campsite.id} className="col-md-5 m-1" >
                 <RenderDirectoryItem campsite={campsite} />
             </div>
         );

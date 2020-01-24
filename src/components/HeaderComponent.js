@@ -50,27 +50,27 @@ class Header extends Component {
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo11.png" height="30" width="30" alt="Ignition" /></NavbarBrand>
+                        <NavbarBrand className="mr-auto menuicon" href="/"><img src="/assets/images/logo11.png" width="30" alt="Ignition" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/home">
-                                        <i className="fa fa-home fa-lg" btn-margin-left /> Home
+                                    <NavLink className="nav-link menuitem" to="/home">
+                                        <i className="fa fa-home fa-lg "  /> Home
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/directory">
-                                        <i className="fa fa-list fa-lg" btn-margin-left /> Performer Profiles
+                                    <NavLink className="nav-link menuitem" to="/directory">
+                                        <i className="fa fa-list fa-lg" /> Performer Profiles
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/aboutus">
+                                    <NavLink className="nav-link menuitem" to="/aboutus">
                                         <i className="fa fa-info fa-lg" /> About
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/contactus">
+                                    <NavLink className="nav-link menuitem" to="/contactus">
                                         <i className="fa fa-address-card fa-lg" />    Contact and Book Us
                                     </NavLink>
                                 </NavItem>

@@ -52,16 +52,15 @@ ul {
   color: orange;
 }
 
-li a:hover {
-  background-color: #555;
-  color: red;
-  display: block;
-  padding: 8px;
+img {
+  max-width:70%;
 }
 
-img {
+.performerimg {
   max-width:78%;
-  height:auto;
+  max-height:350px;
+  width: auto;
+  height: auto;
 }
 
 .page-enter {
@@ -82,4 +81,21 @@ img {
 .page-exit-active {
   opacity: 0;
   transition: 300ms ease-out;
+}
+
+.menuitem {
+  color: orangered;
+  font-family: "Open Sans", sans-serif;
+  font-size: 200;
+  font-weight: 400;
+  padding-right: 20px;
+}
+
+.menuicon {
+ padding-top: 23px;
+}
+
+.menuitem:hover {
+  color: orange;
+  text-decoration: none;
 }
