@@ -47,7 +47,7 @@ class Contact extends Component {
                             <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                             <BreadcrumbItem active>Contact Us</BreadcrumbItem>
                         </Breadcrumb>
-                        <h2>Contact Us</h2>
+                        <h2 className="center-align">Contact Us</h2>
                         <hr />
                     </div>
                 </div>
@@ -68,19 +68,10 @@ class Contact extends Component {
                     <div className="col-md-10">
                         <LocalForm model="feedbackForm" onSubmit={values => this.handleSubmit(values)}>   
                             <Row className="form-group">
-                                <Label htmlFor="firstName" md={2}>First Name</Label>
+                                <Label htmlFor="Name" md={2}>Name</Label>
                                 <Col md={10}>
-                                    <Control.text model=".firstName" id="firstName" name="firstName"
-                                        placeholder="First Name"
-                                        className="form-control"
-                                    />
-                                </Col>
-                            </Row>
-                            <Row className="form-group">
-                                <Label htmlFor="lastName" md={2}>Last Name</Label>
-                                <Col md={10}>
-                                    <Control.text model=".lastName" id="lastName" name="lastName"
-                                        placeholder="Last Name"
+                                    <Control.text model=".Name" id="Name" name="Name"
+                                        placeholder="Name"
                                         className="form-control"
                                     />
                                 </Col>
@@ -104,7 +95,7 @@ class Contact extends Component {
                                 </Col>
                             </Row>
                             <Row className="form-group">
-                                <Col md={{ size: 4, offset: 2 }}>
+                                <Col md={{ size: 2, offset: 2 }}>
                                     <div className="form-check">
                                         <Label check>
                                             <Control.checkbox
@@ -125,7 +116,7 @@ class Contact extends Component {
                                 </Col>
                             </Row>
                             <Row className="form-group">
-                                <Label htmlFor="feedback" md={2}>Your Feedback</Label>
+                                <Label htmlFor="feedback" md={2}>Your Inquiry and/or Show Request</Label>
                                 <Col md={10}>
                                     <Control.textarea model=".feedback" id="feedback" name="feedback"
                                         rows="12"
@@ -134,9 +125,10 @@ class Contact extends Component {
                                 </Col>
                             </Row>
                             <Row className="form-group">
+                                <Label htmlFor="inquiry" md={2}></Label>                                
                                 <Col md={{ size: 10, offset: 2 }}>
-                                    <Button type="submit" color="primary">
-                                        Send Feedback
+                                    <Button type="submit" color="danger">
+                                        Booking Request or Inquiry
                                     </Button>
                                 </Col>
                             </Row>

@@ -29,10 +29,10 @@ export const CAMPSITES = [
     },
     {
         id: 4,
-        name:"Haxa",
-        image: "/assets/images/haxa1.jpg",
+        name:"Kurbi",
+        image: "/assets/images/kurbi1.jpg",
         featured: true,
-        description: "Member since 2015."
+        description: "Member since 2019."
     },
     {
         id: 5,
@@ -50,9 +50,9 @@ export const CAMPSITES = [
     },
     {
         id: 7,
-        name:"Kurbi",
-        image: "/assets/images/kurbi1.jpg",
+        name:"Haxa",
+        image: "/assets/images/haxa1.jpg",
         featured: true,
-        description: "Member since 2019."
+        description: "Member since 2015."
     }
 ];

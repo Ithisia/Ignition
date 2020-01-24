@@ -21,7 +21,7 @@ function About(props) {
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                         <BreadcrumbItem active>About Us</BreadcrumbItem>
                     </Breadcrumb>
-                    <h2>About Us</h2>
+                    <h2 className="center-align">About Us</h2>
                     <hr />
                 </div>
             </div>

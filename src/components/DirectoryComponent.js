@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 function RenderDirectoryItem({ campsite }) {
     return (
+        <div className="center-align">
         <Card>
             <Link to={`/directory/${campsite.id}`}>
                 <CardImg width="100%" className="performerimg" src={campsite.image} alt={campsite.name} />
@@ -12,6 +13,7 @@ function RenderDirectoryItem({ campsite }) {
                 </CardImgOverlay>
             </Link>
         </Card>
+        </div>            
     );
 }
 
@@ -33,7 +35,7 @@ function Directory(props) {
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                         <BreadcrumbItem active>Performer Profiles</BreadcrumbItem>
                     </Breadcrumb>
-                    <h2>Performer Profiles</h2>
+                    <h2 className="center-align">Performer Profiles</h2>
                     <hr />
                 </div>
             </div>

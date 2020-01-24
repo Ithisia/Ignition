@@ -1,7 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: white;
-  text-align: center;
   background-color: black;
 }
 
@@ -98,4 +97,24 @@ img {
 .menuitem:hover {
   color: orange;
   text-decoration: none;
+}
+
+
+.breadcrumb {
+  background-color: black;
+  color: white;
+}
+
+.breadcrumb >.active {
+  background-color: black;
+  color: white;
+}
+
+.breadcrumb-item a {
+  background-color: black;
+  color: white;
+}
+
+.center-align {
+  text-align: center;
 }
